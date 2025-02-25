@@ -1,6 +1,8 @@
 # 📦 Archive.is Saver
 
 A lightweight Firefox browser extension to quickly save web pages to archive.is.
+![image](https://github.com/user-attachments/assets/01401414-ed2d-455c-86d8-6f6e781f7615) ![image](https://github.com/user-attachments/assets/989a6937-b38b-4ab0-9392-71531fc8bd1e)
+
 
 
 ## Features
