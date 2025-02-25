@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Archive.is Saver</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input {
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 8px 12px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    .current-url {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Archive.is Saver</h2>
+    
+    <div>
+      <label for="url-input">Archive URL:</label>
+      <input type="text" id="url-input" placeholder="https://example.com">
+      <button id="save-url">Save URL</button>
+    </div>
+    
+    <div class="current-url">
+      <button id="save-current">Archive Current Page</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

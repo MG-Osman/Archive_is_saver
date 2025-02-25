@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Archive.is Saver",
+  "version": "1.0",
+  "description": "Save webpages to archive.is with one click",
+  "permissions": ["activeTab", "contextMenus", "storage"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon48.svg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icons/icon48.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "archive-saver@example.com"
+    }
+  }
+}

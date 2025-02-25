@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Outer blue frame - top part -->
+  <path d="M4 16 C4 11 7 7 12 7 L36 7 C41 7 44 11 44 16 L44 27 L32 27 L32 36 L16 36 L16 27 L4 27 Z" fill="#1E88E5"/>
+  
+  <!-- Outer blue frame - bottom part -->
+  <path d="M4 27 L4 36 C4 41 7 43 12 43 L36 43 C41 43 44 41 44 36 L44 27 L32 27 L32 36 L16 36 L16 27 Z" fill="#1E88E5"/>
+  
+  <!-- White inner area -->
+  <path d="M12 7 C7 7 4 11 4 16 L4 27 L16 27 L16 36 L32 36 L32 27 L44 27 L44 16 C44 11 41 7 36 7 Z" fill="white"/>
+  
+  <!-- Upload arrow -->
+  <path d="M24 14 L24 26 M18 20 L24 14 L30 20" stroke="#37474F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
