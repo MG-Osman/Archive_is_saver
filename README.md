@@ -5,6 +5,10 @@ A lightweight Firefox browser extension to quickly save web pages to archive.is.
 
 
 
+
+## Why Archive.is?
+Wayback machine (archive.org) regularly redacts information authorities subjectively deem misinformation/dangerous information and quickly cooperates with parties looking to hide their online activities. Archive.is decentralized, however. 
+
 ## Features
 
 - **Quick Save** - Save current page with a single click
